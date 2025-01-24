@@ -3,52 +3,26 @@ layout: essay
 type: essay
 title: "The difficult things will always be difficult"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2025-01-23
 published: true
 labels:
-  - Engineering
+  - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/download.png">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*Intro to TypeScript*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+Athletic software engineering is an intriguing and effective approach to learning programming. It emphasizes hands-on practice, timed exercises, and repetition to help students develop their skills under realistic, high-pressure scenarios. This methodology draws parallels with athletic training, where athletes repeat drills and push their limits to achieve peak performance. In software engineering, these principles are applied to coding challenges, fostering both technical expertise and mental resilience.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+The practice WODs (Workouts of the Day) are a cornerstone of this approach, and I found them to be incredibly useful. These exercises simulate real-world coding scenarios and help reinforce concepts learned in class. By working through WODs, I not only gained a better understanding of the material but also improved my ability to write clean, functional code quickly. The immediate feedback from timed exercises highlighted areas where I needed improvement, enabling me to focus my efforts more effectively.
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+This style of learning is both challenging and rewarding. On one hand, it can be stressful to work against the clock and perform under pressure. There were moments when I felt overwhelmed, especially during complex problems or when I encountered errors that were difficult to debug. However, this stress is not without purpose. It mimics the demands of real-world software development, where deadlines and problem-solving under pressure are the norm. Over time, I found that this process built my confidence and ability to stay focused, even in high-pressure situations.
 
-Here's what I think: the difficult things will always be difficult.
+On the other hand, the athletic software engineering approach is also enjoyable. The sense of accomplishment after successfully completing a WOD is incredibly satisfying. It’s rewarding to see tangible progress in my skills and to tackle increasingly complex challenges with greater ease. The structured nature of this approach also provides a clear sense of direction and purpose, making it easier to stay motivated.
 
-## In the context of programming
+I believe this style of learning will work well for me. While the stress can be intense, I appreciate the practical nature of the exercises and the emphasis on improving performance over time. It’s a dynamic and engaging way to learn, and it pushes me to reach beyond my comfort zone. Additionally, the athletic mindset of practice and repetition resonates with me, as it aligns with how I’ve approached learning other skills in the past.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+In conclusion, athletic software engineering and practice WODs offer a powerful framework for developing coding skills. Despite the challenges, the combination of timed exercises, immediate feedback, and structured repetition creates an environment that fosters both technical competence and mental toughness. While it may not be suitable for everyone, I believe this approach will be instrumental in my growth as a software engineer.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Source:Chatgpt and other online sources were utilized to provide informations and isnights, to improve grammar, vocabulary, and punctuation. 
