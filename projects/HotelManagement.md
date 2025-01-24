@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image:https://media.istockphoto.com/id/946751146/vector/male-receptionist-and-caucasian-old-man-tourist.jpg?s=612x612&w=0&k=20&c=V_7HysuiCiova4pjyuGKO1Qjsb6HV-r3LQQD1gyLEAE=
+image: img/istockphoto-946751146-612x612.jpg
 title: "Cotton"
 date: 2014
 published: true
