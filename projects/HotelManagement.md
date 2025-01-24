@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/istockphoto-946751146-612x612.jpg
-title: "Cotton"
+image: img/HotelManagement/istockphoto-946751146-612x612.jpg
+title: "Hotel Management"
 date: 2014
 published: true
 labels:
