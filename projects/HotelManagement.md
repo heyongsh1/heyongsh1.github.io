@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/HotelManagement/istockphoto-946751146-612x612.jpg
+image: img/HotelManagement/HotelManagement Logo.jpg
 title: "Hotel Management"
 date: 2014
 published: true
