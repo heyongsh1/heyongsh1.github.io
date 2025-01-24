@@ -1,59 +1,402 @@
 ---
 layout: project
 type: project
-image: img/HotelManagement Logo.jpg
-title: "Hotel Management"
-date: 2014
+image: img/Library-Logo.png
+title: "Library Management System"
+date: 2023
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Vs Code
+  - Google Docs
+summary: "A Library Management System that we created in ICS 211"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/LMS.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
-To give you a flavor of the game, here is an excerpt from one run:
+In ICS 211 our group was asked to create a library management system using C++. We used a website called Replit to collaborate work on the code and share our ideas/codes within the group. There was add book, delete book, edit book, search book, view all books, and quit. 
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+class Book {
+private:
+  std::string isbn;
+  std::string title;
+  std::string author;
+  std::string edition;
+  std::string publication;
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
 
-pickup candle
-- you are now carrying the candle -
 
-pickup match
-- you are now carrying the match -
+public:
+  virtual void displayBookInfo() const {
+      std::cout << "ISBN: " << isbn << "\nTitle: " << title << "\nAuthor: " << author
+                << "\nEdition: " << edition << "\nPublication: " << publication << "\n";
+  }
 
-light match candle
 
-The candle is now lit. It illuminates everything in the room.
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+
+
+
+
+
+  void setIsbn(const std::string& value) { isbn = value; }
+  void setTitle(const std::string& value) { title = value; }
+  void setAuthor(const std::string& value) { author = value; }
+  void setEdition(const std::string& value) { edition = value; }
+  void setPublication(const std::string& value) { publication = value; }
+
+
+
+
+  std::string getIsbn() const { return isbn; }
+  std::string getTitle() const { return title; }
+  std::string getAuthor() const { return author; }
+  std::string getEdition() const { return edition; }
+  std::string getPublication() const { return publication; }
+};
+
+
+
+
+class Fiction : public Book {
+private:
+  std::string genre;
+
+
+
+
+public:
+  void setGenre(const std::string& g) { genre = g; }
+  std::string getGenre() const { return genre; }
+
+
+
+
+   void displayBookInfo() const override {
+      std::cout << "Fiction Book\n";
+      Book::displayBookInfo();
+      std::cout << "Genre: " << genre << "\n";
+  }
+};
+
+
+
+
+class NonFiction : public Book {
+private:
+  std::string topic;
+
+
+
+
+public:
+  void setTopic(const std::string& t) { topic = t; }
+  std::string getTopic() const { return topic; }
+
+
+
+
+   void displayBookInfo() const override {
+      std::cout << "Non-Fiction Book\n";
+      Book::displayBookInfo();
+      std::cout << "Topic: " << topic << "\n";
+  }
+};
+
+
+
+
+class Library {
+private:
+  static const int MAX_BOOKS = 100;
+  Book* books[MAX_BOOKS];         
+  int numBooks;                     
+
+
+
+
+public:
+  Library() : numBooks(0) {}
+
+
+
+
+   void addBook(Book* book) {
+      if (numBooks < MAX_BOOKS) {
+          books[numBooks++] = book;
+      } else {
+          std::cout << "Library is full. Cannot add more books.\n";
+      }
+  }
+
+
+
+
+  void deleteBook(const std::string& isbn) {
+      for (int i = 0; i < numBooks; ++i) {
+          if (books[i]->getIsbn() == isbn) {
+            
+              for (int j = i; j < numBooks - 1; ++j) {
+                  books[j] = books[j + 1];
+              }
+              delete books[--numBooks];
+              std::cout << "Book with ISBN " << isbn << " deleted.\n";
+              return;
+          }
+      }
+      std::cout << "Book with ISBN " << isbn << " not found.\n";
+  }
+
+
+
+
+   void searchBook(const std::string& isbn) const {
+      for (int i = 0; i < numBooks; ++i) {
+          if (books[i]->getIsbn() == isbn) {
+              books[i]->displayBookInfo();
+              return;
+          }
+      }
+      std::cout << "Book with ISBN " << isbn << " not found.\n";
+  }
+
+
+
+
+  void viewAllBooks() const {
+      if (numBooks == 0) {
+          std::cout << "No books in the library.\n";
+      } else {
+          std::cout << "All Books in the Library:\n";
+          for (int i = 0; i < numBooks; ++i) {
+              books[i]->displayBookInfo();
+              std::cout << "------------------------\n";
+          }
+      }
+  }
+
+
+
+
+
+
+
+
+  void editBook(const std::string& isbn) {
+      for (int i = 0; i < numBooks; ++i) {
+          if (books[i]->getIsbn() == isbn) {
+              std::cout << "Enter new details for the book with ISBN " << isbn << ":\n";
+              std::string newTitle;
+              std::cout << "Enter new Title: ";
+              std::cin.ignore();
+              std::getline(std::cin, newTitle);
+              books[i]->setTitle(newTitle);
+              std::cout << "Book details updated.\n";
+              return;
+          }
+      }
+      std::cout << "Book with ISBN " << isbn << " not found.\n";
+  }
+
+
+
+
+   ~Library() {
+      for (int i = 0; i < numBooks; ++i) {
+          delete books[i];
+      }
+  }
+};
+
+
+
+
+int main() {
+  Library library;
+
+
+
+
+  int choice;
+  std::string isbn;
+
+
+
+
+  do {
+      std::cout << "\nLIBRARY MANAGEMENT SYSTEM\n"
+                << "[1] ADD FICTION BOOK\n"
+                << "[2] ADD NONFICTION BOOK\n"
+                << "[3] DELETE BOOK\n"
+                << "[4] EDIT BOOK\n"
+                << "[5] SEARCH BOOK\n"
+                << "[6] VIEW ALL BOOKS\n"
+                << "[7] EXIT\n\n"
+                << "Enter Choice: ";
+      std::cin >> choice;
+
+
+
+
+      switch (choice) {
+          case 1: {
+              // Add a new fiction book
+              Fiction* newFiction = new Fiction();
+
+
+
+
+            
+              std::cout << "Enter ISBN: ";
+              std::cin >> isbn;
+              newFiction->setIsbn(isbn);
+
+
+
+
+              std::cout << "Enter Title: ";
+              std::cin.ignore();
+              std::getline(std::cin, isbn);
+              newFiction->setTitle(isbn);
+
+
+
+
+              std::cout << "Enter Author: ";
+              std::getline(std::cin, isbn);
+              newFiction->setAuthor(isbn);
+
+
+
+
+              std::cout << "Enter Edition: ";
+              std::getline(std::cin, isbn);
+              newFiction->setEdition(isbn);
+
+
+
+
+              std::cout << "Enter Publication: ";
+              std::getline(std::cin, isbn);
+              newFiction->setPublication(isbn);
+
+
+
+
+              std::cout << "Enter Genre: ";
+              std::getline(std::cin, isbn);
+              newFiction->setGenre(isbn);
+
+
+              std::cout << "Book Added";
+              library.addBook(newFiction);
+              break;
+          }
+          case 2: {
+              // Add a new nonfiction book
+              NonFiction* newNonFiction = new NonFiction();
+
+
+
+
+              std::cout << "Enter ISBN: ";
+              std::cin >> isbn;
+              newNonFiction->setIsbn(isbn);
+
+
+
+
+              std::cout << "Enter Title: ";
+              std::cin.ignore();
+              std::getline(std::cin, isbn);
+              newNonFiction->setTitle(isbn);
+
+
+
+
+              std::cout << "Enter Author: ";
+              std::getline(std::cin, isbn);
+              newNonFiction->setAuthor(isbn);
+
+
+
+
+              std::cout << "Enter Edition: ";
+              std::getline(std::cin, isbn);
+              newNonFiction->setEdition(isbn);
+
+
+
+
+              std::cout << "Enter Publication: ";
+              std::getline(std::cin, isbn);
+              newNonFiction->setPublication(isbn);
+
+
+
+
+              std::cout << "Enter Topic: ";
+              std::getline(std::cin, isbn);
+              newNonFiction->setTopic(isbn);
+
+
+              std::cout << "Book Added!!!!";
+              library.addBook(newNonFiction);
+              break;
+          }
+          case 3: {
+              // Delete a book
+              std::cout << "Enter ISBN of the book to delete: ";
+              std::cin >> isbn;
+              library.deleteBook(isbn);
+              break;
+          }
+          case 4: {
+              // Edit book details
+              std::cout << "Enter ISBN of the book to edit: ";
+              std::cin >> isbn;
+              library.editBook(isbn);
+              break;
+          }
+          case 5: {
+              // Search for a book
+              std::cout << "Enter ISBN of the book to search: ";
+              std::cin >> isbn;
+              library.searchBook(isbn);
+              break;
+          }
+          case 6: {
+              // View all books
+              library.viewAllBooks();
+              break;
+          }
+          case 7: {
+              // Exit the program
+              std::cout << "Exiting the program.\n";
+              break;
+          }
+          default: {
+              std::cout << "Invalid choice. Please try again.\n";
+              break;
+          }
+      }
+
+
+
+
+  } while (choice != 7);
+
+
+
+
+  return 0;
+}
+
 </pre>
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://docs.google.com/document/d/1jpQbiyqe7CwpEd0ZL1BhP7pYfsnICr3eLIA-m5oNKw0/edit?tab=t.0"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
