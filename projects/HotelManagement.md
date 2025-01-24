@@ -399,4 +399,4 @@ int main() {
 
 <hr>
 
-Source: <a href="https://docs.google.com/document/d/1jpQbiyqe7CwpEd0ZL1BhP7pYfsnICr3eLIA-m5oNKw0/edit?tab=t.0"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://docs.google.com/document/d/1jpQbiyqe7CwpEd0ZL1BhP7pYfsnICr3eLIA-m5oNKw0/edit?tab=t.0"><i class="large github icon "></i>Group-8-Project</a>
