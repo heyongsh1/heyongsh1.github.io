@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/HotelManagement/HotelManagement Logo.jpg
+image: img/HotelManagement Logo.jpg
 title: "Hotel Management"
 date: 2014
 published: true
