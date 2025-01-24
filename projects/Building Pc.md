@@ -1,17 +1,16 @@
 ---
 layout: project
 type: project
-image: img/Library-Logo.png
-title: "Library Management System"
-date: 2023
+image: img/pc.png
+title: "Gaming Pc Building"
+date: 2025
 published: true
 labels:
-  - Vs Code
-  - Google Docs
-summary: "A Library Management System that we created in ICS 211"
+  - Hands-on 
+summary: "At the start of the year I thought of replacing my motherboard and CPU on my Pc build because there was a problem with the CPU frying itself."
 ---
 
-<img class="img-fluid" src="../img/LMS.png">
+<img class="img-fluid" src="../img/GamingPc.jpg">
 
 In ICS 211 our group was asked to create a library management system using C++. We used a website called Replit to collaborate work on the code and share our ideas/codes within the group. There was add book, delete book, edit book, search book, view all books, and quit. 
 
