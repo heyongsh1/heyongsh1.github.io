@@ -26,4 +26,4 @@ I believe this style of learning will work well for me. While the stress can be 
 In conclusion, athletic software engineering and practice WODs offer a powerful framework for developing coding skills. Despite the challenges, the combination of timed exercises, immediate feedback, and structured repetition creates an environment that fosters both technical competence and mental toughness. While it may not be suitable for everyone, I believe this approach will be instrumental in my growth as a software engineer.
 
 ---
-Acknowledgement: Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation. 
+## Acknowledgement: Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation. 
