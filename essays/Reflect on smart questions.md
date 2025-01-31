@@ -16,12 +16,12 @@ labels:
 The phrase "There are no stupid questions" is often heard in educational and professional settings, including software engineering. While this sentiment encourages curiosity and learning, it is important to differentiate between well-formulated and poorly constructed-questions. In software development, asking the right questions can lead to clarity, efficiency, and better problem-solving, while vague or ill-prepared questions can lead to confusion and wasted time.
 
 
-## A Well-Formulated Question
+## A Well-Formulated Question- { "network": "How to add a watermark inside SVG without covering entire bounding box?", "url": ",https://stackoverflow.com/questions/79402055/how-to-add-a-watermark-inside-svg-without-covering-entire-bounding-box" }
 
 A well-formulated question in software engineering is precise, context-aware, and actionable. It provides sufficient details for the recipient to understand the problem and offer a meaningful response. For example, instead of asking, "Why isn't my code working?" a more effective question would be: "I am working on a TypeScript function that calculates the factorial of a number. However, when I pass in 0, I get an undefined result instead of 1. Below is my code snippet. Can you help me identify the issue?" This question includes context, relevant details, and a specific request, making it easier for others to assist.
 
 
-## A Poorly Constructed Question
+## A Poorly Constructed Question- https://stackoverflow.com/questions/16686959/can-someone-help-me-with-this-class
 
 Conversely, a poorly constructed question is vague, lacks context, or demonstrates insufficient effort in problem-solving. An example of such a question would be: "How do I fix my code?" Without specifying the issue, providing error messages, or sharing relevant code snippets, the question becomes unanswerable or requires additional back-and-forth to clarify. This can be frustrating for both the questioner and the responder. Another poor example would be asking a broad or easily searchable question like, "What is JavaScript?" without demonstrating any prior research.
 
