@@ -32,4 +32,4 @@ The concept of “stupid questions” in software engineering is a bit of a misn
 
 
 ---
-## Acknowledgement: Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation.
+**Acknowledgement:** Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation.
