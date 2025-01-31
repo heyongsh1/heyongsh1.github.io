@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Reflect On Type Script"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-23
 published: true
