@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "First Experience in Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-23
 published: true
@@ -9,7 +9,7 @@ labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/download.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/images.jpg">
 
 *First Experience in Software Engineering*
 
