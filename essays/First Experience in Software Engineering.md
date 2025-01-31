@@ -27,4 +27,6 @@ What truly stood out during my initial foray into software engineering was the s
 
 In retrospect, my first experience in software engineering laid a strong foundation for my journey in this field. It was a time of growth, both technically and personally. The lessons I learned during those early days—about persistence, collaboration, and the joy of creation—remain with me as I continue to explore and expand my skills. This experience not only confirmed my interest in software engineering but also inspired me to pursue it as a career path.
 
-Source: Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation. 
+---
+
+Acknowledgement: Chatgpt and other online sources were utilized to provide information and insight, to improve grammar, vocabulary, and punctuation. 
