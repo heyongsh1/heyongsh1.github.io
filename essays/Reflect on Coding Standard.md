@@ -9,7 +9,7 @@ labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Coding-Standards-and-Best-Practices-to-Follow.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/Coding-Standards-and-Best-Practices-to-Follow.png">
 
 *The Value and Challenge of Coding Standards: Reflections on ESLint*
 
