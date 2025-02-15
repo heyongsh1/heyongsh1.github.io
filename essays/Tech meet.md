@@ -3,13 +3,13 @@ layout: essay
 type: essay
 title: "Tech Meet"
 # All dates must be YYYY-MM-DD format!
-date: 2025-01-23
+date: 2025-02-14
 published: true
 labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/images.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/IMG_0671.jpg">
 
 *Meeting people from the software development industry*
 
