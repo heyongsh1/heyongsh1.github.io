@@ -9,7 +9,7 @@ labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/17 Best React UI Frameworks for 2024-20240821120845638.webp">
+<img width="500px" class="rounded float-start pe-4" src="../img/17 Best React UI Frameworks for 2024-20240821120845638.webp">
 
 *Reflect on UI Frameworks*
 
