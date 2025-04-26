@@ -15,7 +15,7 @@ labels:
 <img width="500px" class="rounded mx-auto d-block" src="../img/design-pattern.png">
 
 
-**Design Patterns: Foundations of Scalable and Adaptable Software**
+</p>**Design Patterns: Foundations of Scalable and Adaptable Software**
 
 As I reflect on the key takeaways from this software engineering course, one concept that stands out in its breadth and long-term relevance is Design Patterns. Introduced as standardized solutions to common design problems, design patterns extend far beyond their origins in web development. They serve as a crucial foundation for building scalable, maintainable, and robust systems in any software domain. Understanding design patterns has transformed the way I approach problem-solving, allowing me to view challenges through a lens of proven architectural strategies rather than isolated, case-specific fixes.
 
