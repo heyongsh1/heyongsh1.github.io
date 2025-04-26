@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "First Experience in Software Engineering"
+title: "Design Pattern"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-25
 published: true
@@ -12,7 +12,7 @@ labels:
   - Ehtics of Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/design pattern.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/design-pattern.jpg">
 
 **Design Patterns: Foundations of Scalable and Adaptable Software**
 
