@@ -12,7 +12,7 @@ labels:
   - Ehtics of Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/design-pattern.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/design-pattern.png">
 
 **Design Patterns: Foundations of Scalable and Adaptable Software**
 
