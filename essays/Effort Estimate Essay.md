@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="500px" class="rounded mx-auto d-block" src="../img/design-pattern.png">
+<img width="500px" class="rounded mx-auto d-block" src="../img/Screenshot 2025-05-10 172740.png">
 
 
 **Effort Estimation Reflection Essay**
