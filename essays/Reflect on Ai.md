@@ -13,7 +13,7 @@ labels:
 
 <img width="500px" class="rounded mx-auto d-block" src="../img/design-pattern.png">
 
-**Reflect on use of AI in ICS 314**
+
 
 I. Introduction
 Artificial Intelligence has increasingly woven itself into the fabric of modern learning, and its role in software engineering is revolutionary and disruptive. In ICS 314, AI was not just a tool—it was a study companion, a debugger, and an idea helper. This reflection follows my journey with AI throughout the course, how it affected my way of learning, solving problems, and collaborating with others in software development.
