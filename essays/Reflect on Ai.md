@@ -15,10 +15,10 @@ labels:
 
 **Reflect on the use of AI in ICS 314**
 
-I. Introduction
+**I. Introduction**
 Artificial Intelligence has increasingly woven itself into the fabric of modern learning, and its role in software engineering is revolutionary and disruptive. In ICS 314, AI was not just a tool—it was a study companion, a debugger, and an idea helper. This reflection follows my journey with AI throughout the course, how it affected my way of learning, solving problems, and collaborating with others in software development.
 
-II. Personal AI Experience:
+**II. Personal AI Experience:**
 I employed AI for several reasons throughout this semester of ICS 314:
 
 1. Experience WODs: I typically completed Experience WODs alone without the aid of AI. They were designed so that we would build core competencies, and I had to feel like I really understood what we were learning. I only used ChatGPT if I reached specific errors that I was unable to fix despite watching the walkthrough vids.
@@ -49,22 +49,22 @@ I employed AI for several reasons throughout this semester of ICS 314:
 
 14. Other uses in ICS 314 not already listed: I occasionally used ChatGPT to debate design options, such as component abstraction or state management decisions. This clarified things better and made me more confident when making architectural choices.
 
-III. Impact on Learning and Understanding
+**III. Impact on Learning and Understanding**
 Utilizing AI was critical to making me learn quicker without compromising on depth. It filled in gaps in learning quickly and gave me a confidence boost if I was stuck about progressing further. Though, I soon came to understand the value of cross-verification of AI output and not doing it mindlessly. The best result came only when I supplemented—not replaced—my own mental processes through the assistance of AI.
 
-IV. Practical Applications
+**IV. Practical Applications**
 In ICS 314, AI was able to prove its utility in nearly every development phase—writing, refactoring, debugging, and learning to use new tools. AI helped automate the routine aspect of coding and allowed me to focus more on design, logic, and teamwork. 
 
-V. Challenges and Opportunities
+**V. Challenges and Opportunities**
 Though AI boosted productivity, it sometimes tempted me to try shortcuts. I had to remind myself deliberately to study the content before asking for help. The biggest potential is in using AI to liberate time for innovation and creativity. There is also a risk of dependency, especially for newer programmers.
 
-VI. Comparative Analysis:
+**VI. Comparative Analysis:**
 AI greatly improves speed and efficiency but cannot replicate human developers' nuanced thinking and creativity. While it can perform 80% of the coding task, the last 20%—that is usually around design thinking, ethical decision-making, and user empathy—is still human. A combined approach that leverages AI strengths and develops human insight is the key to continued growth.
 
-VII. Future Considerations
+**VII. Future Considerations**
 In the future, AI will be integrated into software writing, testing, and upkeep. Courses like ICS 314 strive to make its utilization more mainstream as well as emphasize core understanding. My desire is that education not only teaches students how to use AI tools but also how to question them, improve them, and use them ethically. Ethical issues such as data privacy and algorithmic bias must be part of this conversation as well.
 
-VIII. Conclusion:
+**VIII. Conclusion:**
 This semester, looking back, AI had been both my tutor and teammate. It taught me rapidly, coded with me wiser, and collaborated with me more effectively. Its most valuable dividends, though, were when I utilized it thoughtfully and reflectively. As software development keeps growing, I believe that success will not only depend on mastering tools like AI but also on retaining the human qualities that make us resilient, empathetic, and creative. ICS 314 prepared me for establishing the balance, and I anticipate continuing to develop both sides of this equational dynamic.
 
 ---
