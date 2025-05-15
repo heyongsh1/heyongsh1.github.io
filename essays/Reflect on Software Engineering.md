@@ -11,7 +11,7 @@ labels:
   - AI
 ---
 
-<img width="500px" class="rounded mx-auto d-block" src="../img/ai.png">
+<img width="500px" class="rounded mx-auto d-block" src="../img/download.jpg">
 
 **Reflect on the use of AI in ICS 314**
 
