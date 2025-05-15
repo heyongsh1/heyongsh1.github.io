@@ -15,57 +15,33 @@ labels:
 
 **Reflect on the use of AI in ICS 314**
 
-**I. Introduction**
-Artificial Intelligence has increasingly woven itself into the fabric of modern learning, and its role in software engineering is revolutionary and disruptive. In ICS 314, AI was not just a tool—it was a study companion, a debugger, and an idea helper. This reflection follows my journey with AI throughout the course, how it affected my way of learning, solving problems, and collaborating with others in software development.
+**Reflections on Software Engineering: Beyond Web Development**
 
-**II. Personal AI Experience:**
-I employed AI for several reasons throughout this semester of ICS 314:
+Throughout this course, I’ve gained hands-on experience with building web applications, but more importantly, I’ve developed a deeper understanding of foundational software engineering principles that apply to a wide range of development contexts—not just web-based ones. Concepts like Agile Project Management, Configuration Management, and Design Patterns have transformed the way I think about software development as a discipline. These ideas extend beyond any specific technology stack and are essential tools for any kind of software project.
 
-1. Experience WODs: I typically completed Experience WODs alone without the aid of AI. They were designed so that we would build core competencies, and I had to feel like I really understood what we were learning. I only used ChatGPT if I reached specific errors that I was unable to fix despite watching the walkthrough vids.
+**Agile Project Management and Issue-Driven Development**
 
-2. In-class Practice WODs: I did the same during these sessions. I tried to solve the exercises myself to check my understanding. If I was stuck or unsure of a TypeScript expression or syntax, I would occasionally ask ChatGPT to verify my thought process or provide me with a bare minimum working example.
+One of the most influential ideas I encountered in this course was Agile Project Management. Agile is a flexible approach to managing software projects that emphasizes iterative development, customer feedback, and adaptability. Unlike traditional "waterfall" models, Agile allows teams to deliver functional pieces of software in small increments, which improves the ability to respond to changing requirements.
 
-3. In-class WODs: My AI usage was higher for the in-class WODs, especially towards the latter part of the semester. With the increasing complexity of problems, ChatGPT helped me decipher unclear requirements or recall syntax rules immediately. However, I made sure not to copy answers wholesale without actually understanding them, and utilized AI more as a helper than a support.
+Within this framework, we practiced Issue Driven Project Management (IDPM), a lightweight implementation of Agile. In IDPM, all tasks are broken down into small, actionable issues, each of which can be tracked, assigned, and completed independently. This structure promotes accountability, clarity, and progress visibility.
 
-4. Essays: For written assignments, such as technical essays and director's pitch reflections, I wrote by myself most of the time. Sometimes I would use ChatGPT to get ideas, revise sentences, or test the quality of arguments. But I took care to have my own voice and interpretation ahead of all that.
+While we used IDPM primarily for building a web application, I can easily imagine applying this system to other kinds of projects—such as mobile apps, system tools, or even team-based academic research. By tracking progress through issues and focusing on incremental goals, teams can stay organized and adapt to new information in any collaborative setting.
 
-5. Final project: AI was paramount in our final project. I used ChatGPT to compile React code, debug Git merges, and refactor components to integrate them better. In debugging unexpected runtime errors, AI helped locate the cause faster than testing with trial-and-error procedures. This saved our team time and allowed us to stay on schedule while having unity in our codebase.
+**Configuration Management**
 
-6. Picking up a concept/tutorial: Whenever a lecture or reading concept wasn't sticking—such as closures, ternary operators, or client-server communication—I asked ChatGPT to break it down in simpler language. Having AI at my fingertips enabled me to study asynchronously and reinforced material from a different perspective.
+Another concept that stood out to me was Configuration Management, which refers to the process of systematically handling changes to software so that the integrity and traceability of the product are maintained over time. In our course, we used Git and GitHub to version our code, collaborate with teammates, and roll back changes when necessary.
 
-7. Applying AI during class to reply to a question or in Discord: Sometimes, I used AI to verify my understanding of a class question when things were going quickly. For Discord, the use was sparing, but whenever a classmate posed a technical question, sometimes I would apply ChatGPT to research the answer before giving a response.
+This skill is essential in any software development environment, not just for websites. Whether you're working on embedded systems, data pipelines, or even game development, having a reliable way to manage source code and track changes is critical. Tools like Git help prevent conflicts, document project history, and support collaboration across teams and time zones. Configuration management ensures that a project is reproducible and that bugs can be traced and resolved effectively.
 
-8. Asking or answering a smart question: In these instances, I typically tried to use my own knowledge. AI helped when I needed a second opinion or background, but I liked to use my own thinking and classroom knowledge to construct thoughtful questions or answers.
+**Design Patterns**
 
-9. Coding sample: AI came in handy when I needed examples of form validation, React component layout, or TypeScript helper functions. Instead of slogging through lengthy documentation, I could ask a particular question and get a targeted answer with code samples.
+Finally, we explored Design Patterns, which are general solutions to common problems in software design. These are not code snippets but abstract templates for solving problems in a reusable way. For example, the Model-View-Controller (MVC) pattern helps organize code by separating concerns: models handle data, views manage UI, and controllers act as intermediaries between them.
 
-10. Clarifies code: When I came across unfamiliar code, especially while reviewing team commits, I asked ChatGPT to clarify the logic line by line. It helped me understand my colleagues' code and improve code reviews.
+Understanding design patterns has changed how I approach programming. Instead of reinventing the wheel, I now look for patterns that can make my code more maintainable, scalable, and understandable. This mindset applies beyond web development. Whether I’m writing a command-line tool or an Android app, I can apply patterns like Singleton (for managing global state), Observer (for event-driven systems), or Factory (for flexible object creation).
 
-11. Code programming: I used AI the most when programming code. Whether helper functions or React form state logic, AI would provide templates or suggestions that helped me get unstuck. I took the effort to understand and edit the code rather than just copying it.
+**Conclusion**
 
-12. Documentation through coding: I chose not to use AI to document. It was my feeling that it ought to be me documenting comments in a manner that suited our specific context. It made the documentation more personal and enabled me to have a greater understanding of the code.
-
-13. Quality assurance: AI was extremely helpful when debugging and testing. I used it to decode cryptic error messages, infer probable edge cases, and confirm that my test coverage was adequate.
-
-14. Other uses in ICS 314 not already listed: I occasionally used ChatGPT to debate design options, such as component abstraction or state management decisions. This clarified things better and made me more confident when making architectural choices.
-
-**III. Impact on Learning and Understanding**
-Utilizing AI was critical to making me learn quicker without compromising on depth. It filled in gaps in learning quickly and gave me a confidence boost if I was stuck about progressing further. Though, I soon came to understand the value of cross-verification of AI output and not doing it mindlessly. The best result came only when I supplemented—not replaced—my own mental processes through the assistance of AI.
-
-**IV. Practical Applications**
-In ICS 314, AI was able to prove its utility in nearly every development phase—writing, refactoring, debugging, and learning to use new tools. AI helped automate the routine aspect of coding and allowed me to focus more on design, logic, and teamwork. 
-
-**V. Challenges and Opportunities**
-Though AI boosted productivity, it sometimes tempted me to try shortcuts. I had to remind myself deliberately to study the content before asking for help. The biggest potential is in using AI to liberate time for innovation and creativity. There is also a risk of dependency, especially for newer programmers.
-
-**VI. Comparative Analysis:**
-AI greatly improves speed and efficiency but cannot replicate human developers' nuanced thinking and creativity. While it can perform 80% of the coding task, the last 20%—that is usually around design thinking, ethical decision-making, and user empathy—is still human. A combined approach that leverages AI strengths and develops human insight is the key to continued growth.
-
-**VII. Future Considerations**
-In the future, AI will be integrated into software writing, testing, and upkeep. Courses like ICS 314 strive to make its utilization more mainstream as well as emphasize core understanding. My desire is that education not only teaches students how to use AI tools but also how to question them, improve them, and use them ethically. Ethical issues such as data privacy and algorithmic bias must be part of this conversation as well.
-
-**VIII. Conclusion:**
-This semester, looking back, AI had been both my tutor and teammate. It taught me rapidly, coded with me wiser, and collaborated with me more effectively. Its most valuable dividends, though, were when I utilized it thoughtfully and reflectively. As software development keeps growing, I believe that success will not only depend on mastering tools like AI but also on retaining the human qualities that make us resilient, empathetic, and creative. ICS 314 prepared me for establishing the balance, and I anticipate continuing to develop both sides of this equational dynamic.
+This course has shown me that software engineering is much more than writing code to build websites. It’s about using structured, proven approaches to design, manage, and maintain software systems. Concepts like Agile Project Management, Configuration Management, and Design Patterns are essential tools in any developer’s toolkit, regardless of the specific technologies involved. By understanding and practicing these principles, I feel more prepared to take on complex software projects—whether they live on the web or somewhere entirely different.
 
 ---
 
