@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflect on the use of AI"
+title: "Reflect on Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-12
 published: true
@@ -12,7 +12,6 @@ labels:
 
 <img width="500px" class="rounded mx-auto d-block" src="../img/download.jpg">
 
-**Reflect on the use of AI in ICS 314**
 
 **Reflections on Software Engineering: Beyond Web Development**
 
