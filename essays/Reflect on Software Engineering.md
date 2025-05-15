@@ -8,7 +8,6 @@ published: true
 labels:
   - Computer Science
   - Software Engineering
-  - AI
 ---
 
 <img width="500px" class="rounded mx-auto d-block" src="../img/download.jpg">
