@@ -7,8 +7,8 @@ title: "Campus Cravings"
 date: 5/16/2025
 published: true
 labels:
-  - 
-  - 
+  - Group Project
+  - TypeScript Project
 ---
 
 <img class="img-fluid" src="../img/manoa.png">
