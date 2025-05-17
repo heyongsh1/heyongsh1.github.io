@@ -11,7 +11,7 @@ labels:
   - 
 ---
 
-<img class="img-fluid" src="../img/LMS.png">
+<img class="img-fluid" src="../img/manoa.png">
 
 **Campus Craving**
 
