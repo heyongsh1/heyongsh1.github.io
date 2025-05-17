@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Library-Logo.png
+image: img/manoa.png
 title: "Campus Cravings"
 date: 5/16/2025
 published: true
